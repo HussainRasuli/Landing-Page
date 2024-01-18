@@ -1,0 +1,139 @@
+body {
+  margin: 0px;
+}
+.container-one {
+  background-color: #1f2937;
+  padding: 0 11rem;
+}
+.header-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1f2937;
+  padding: 23px 0;
+}
+.header-nav .nav-logo {
+  height: 50px;
+  width: auto;
+  margin-left: 20px;
+}
+.nav-one {
+  font-size: 24px;
+  color: #f0faf8;
+}
+.nav-two a {
+  padding: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.section-one {
+  padding: 60px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.header-item-one button,
+.button-div button {
+  background-color: #3882f6;
+  color: white;
+  border: 2px solid;
+  border-radius: 10px;
+  font-weight: bolder;
+  padding: 10px 35px;
+}
+.header-item-one p {
+  font-size: 18px;
+  color: #e5e7eb;
+  line-height: 30px;
+  font-family: serif;
+}
+.header-item-one h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f0faf8;
+}
+
+.header-item-two img {
+  border-radius: 10px;
+}
+
+.container-two {
+  padding: 0 14rem;
+}
+.content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 60px 0px;
+}
+.container-two h1 {
+  text-align: center;
+  color: black;
+  margin-top: 4rem;
+}
+.content-item {
+  text-align: center;
+  padding: 0px 10px;
+}
+.content-item img {
+  border: 2px solid blue;
+  border-radius: 17px;
+}
+.word {
+  color: #3882f6;
+}
+
+.container-three {
+  background-color: #e5e7eb;
+  padding: 5rem 14rem;
+}
+.qoute {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+}
+.name {
+  text-align: right;
+  color: #1f2937;
+}
+
+.container-four {
+  padding: 5rem 14rem;
+}
+
+.signup-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.signup-div {
+  background-color: #3882f6;
+  padding: 30px;
+}
+.signup-div h1 {
+  color: white;
+  margin-bottom: 0px;
+}
+.signup-div p {
+  color: #e5e7eb;
+  margin-top: 0px;
+}
+
+footer {
+  background-color: #1f2937;
+  text-align: center;
+  padding: 25px;
+  color: white;
+}
+
+@media (min-width: 500px) and (max-width: 1200px) {
+  .container-one,
+  .container-two,
+  .container-three,
+  .container-four {
+    padding: 15px;
+  }
+}
